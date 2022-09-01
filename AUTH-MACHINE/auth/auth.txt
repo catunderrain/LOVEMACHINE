@@ -1,5 +1,5 @@
 Name: auth-machine
 Version: 0.0.2
-Author: catunderrain
-Date created: 01/09/2022-21.47.10
-Date fixed: 01/09/2022-21.52.05
+Author: cain
+Date created: 01/09/2022-22.10.05
+Date fixed: 01/09/2022-22.10.33

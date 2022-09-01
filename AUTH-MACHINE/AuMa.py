@@ -36,6 +36,9 @@ def authnew():
             file.write('\nDate fixed: '+datefixed)
             
             file.close()
+            
+            file = open(authdir+'\\log.txt','w')
+            file.close()
 
 
 def authold():
@@ -66,6 +69,11 @@ def authold():
         datefixed = datetime.date.today().strftime('%d/%m/%Y')+'-'+datetime.datetime.now().strftime('%H.%M.%S')
     file.write('\nDate fixed: '+datefixed)
     
+    file.close()
+    
+    log = input('Write your log: ')
+    file = open(authdir+'\\log.txt','a')
+    file.write(f'\nVersion {version}: \n{log}')
     file.close()
 
 
