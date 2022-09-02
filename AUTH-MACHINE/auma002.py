@@ -1,5 +1,6 @@
 import os
 import datetime
+
 #input-------------------------------------
 direction = input('Your direction: ')
 # direction = 'd:\\lovemachine'
@@ -39,7 +40,7 @@ def authnew():
             
             file = open(authdir+'\\log.txt','w')
             file.close()
-
+            
 
 def authold():
     file = open(authdir+'\\auth.txt','w')
